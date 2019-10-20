@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
+
 body{
   margin: 0px;
   padding: 0px;
+  background-image: url("/carbon-background.jpg");
 }
 
 header{
@@ -20,24 +23,25 @@ header nav{
 header nav ul{
   list-style-type: none;
   list-style-position: outside;
-  width: 30%;
+  width: 20%;
   
 }
 
 header nav ul li{
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 header nav ul li:hover{
   background-color: #333;
-  outline: 1px solid #bff8ff;
+  outline: 1px solid #fff;
   padding: 10px;
 }
 
 header nav ul li a{
   text-decoration: none;
   color: #333;
+  font-family: 'Arvo', serif;
 }
 
 header nav ul li a:hover{
@@ -49,13 +53,17 @@ header nav img{
   width: 75px;
 }
 
+header nav a img{
+  width: 65px;
+}
+
 main{
   margin: 75px auto 40px auto;
+  background-color: #fff;
 }
 
 main nav{
   display: flex;
- 
 }
 
 main nav a{
@@ -65,5 +73,43 @@ main nav a{
   box-shadow: 2px 2px 20px -6px #333;
   border-radius: 15px;
   color: #333;
+  font-family: 'Arvo', serif;
+  padding: 10px;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background: gray;
+  font-family: 'Arvo', serif;
+}
+
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li{
+  
+  display: inline;
+  padding: 10px;
+  border-right: 1px solid #fff;
+}
+
+footer ul li:last-child{
+  border-right: none;
+}
+
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#chat{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
