@@ -3,7 +3,6 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url("/carbon-background.jpg");
 }
 
 header{
@@ -24,7 +23,6 @@ header nav ul{
   list-style-type: none;
   list-style-position: outside;
   width: 20%;
-  
 }
 
 header nav ul li{
